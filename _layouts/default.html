@@ -9,18 +9,19 @@
     <meta name="theme-color" content="#157878">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
   </head>
   <body>
     <section class="page-header">
       <img src="../assets/img/logopositivo.png" style="width:16em">
       <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <!-- <nav>
+      <nav id="menu">
         <ul>
-          <li><a href="about.mdß">About me</a></li>
-          <li>Projects</li>
+          <li><a id="about" href="/about">About me</a></li>
+          <li><a id="projects" href="/about">Projects</a></li>
         </ul>
-      </nav> -->
+      </nav>
       <!-- {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
