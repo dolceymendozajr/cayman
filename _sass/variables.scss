@@ -4,12 +4,14 @@ $medium-breakpoint: 42em !default;
 
 // Headers
 $header-heading-color: #fff !default;
-$header-bg-color: #7210D4 !default;
-$header-bg-color-secondary: #0EAEB9 !default;
+$header-bg-color-1: #11c3d0 !default /*base color*/;
+$header-bg-color-2: #1163d0 !default /*analogous 1 color*/;
+$header-bg-color-3: #11c3d0 !default /*analogous 2 color*/;
+$animation-duration: 5s;
 
 // Text
-$section-headings-color: #0EAEB9 !default;
-$body-text-color: #525252 !default;
+$section-headings-color: #035358 !default;
+$body-text-color: #6b6b6b !default;
 $body-link-color: #0EAEB9 !default;
 $body-link-color-hover: #07767C;
 $blockquote-text-color: #C0C0C0 !default;

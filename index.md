@@ -1,19 +1,9 @@
 ---
 layout: default
 ---
-
-# [About me](about)
-
-* * *
-
-> This is a blockquote following a header.
 >
-> When something is important enough, you do it even if the odds are not in your favor.
+_If it doesn't challenge you,  
+It won't change you._
+>
 
-### Small image
-
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![](https://guides.github.com/activities/hello-world/branching.png)
+## Do you want to know more [about me](about)?
