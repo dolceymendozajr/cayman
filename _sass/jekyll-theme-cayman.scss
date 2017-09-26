@@ -375,10 +375,31 @@ a {
   color: $blockquote-text-color;
 }
 
-nav ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 25em;
-  background-color: $header-heading-color;
+#menu {
+  padding-top: 2em;
+}
+
+#menu ul{
+  padding-left: 0em;
+}
+
+#menu li { 
+  display: inline;
+  }
+
+#menu a {
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.57);
+}
+
+#about {
+  padding-right: 10em;
+}
+
+#projects {
+  padding-left: 10em;
+}
+
+#menu a:hover {
+  color:rgb(255, 255, 255); 
 }
