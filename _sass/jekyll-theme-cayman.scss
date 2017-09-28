@@ -375,31 +375,31 @@ a {
   color: $blockquote-text-color;
 }
 
-#menu {
-  padding-top: 2em;
-}
+//MAIN-MENU
 
-#menu ul{
-  padding-left: 0em;
-}
-
-#menu li { 
-  display: inline;
+  /* Añade transparencia al nav */
+  .nav {
+      background-color: transparent;
+      overflow: hidden; 
   }
 
-#menu a {
-    text-decoration: none;
-    color:rgba(255, 255, 255, 0.57);
-}
+  /* Añade estilo y maquetacion a los links del nav */
+  .nav a {
+      float: center;
+      display: block;
+      width: 10em;
+      margin: auto;
+      color: $header-heading-color;
+      text-align: center;
+      padding: .5em;
+      text-decoration: none;
+      font-size: 1em;
+  }
 
-#about {
-  padding-right: 10em;
-}
+  /* Cambia el color de los links en hover */
+  .nav a:hover {
+      background-color: rgba(255,255,255, 0.10);
+  }
 
-#projects {
-  padding-left: 10em;
-}
+//END-MENU
 
-#menu a:hover {
-  color:rgb(255, 255, 255); 
-}

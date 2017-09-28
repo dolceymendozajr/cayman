@@ -8,5 +8,4 @@ layout: default
 
 {{ site.description | default: site.github.project_tagline }}
 
-
 [back](./)
